@@ -127,6 +127,8 @@ In your terminal, type:
 
 Go to http://127.0.0.1:5000 in your web browser. 🎉 You just made your own sentiment analysis tool!
 
+Our folder scructure: 
+![](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-12%20113346.png)
 ---
 
 # ☁️ Part 2: Host Your App on AWS Free Tier (EC2)
@@ -171,21 +173,21 @@ We were able to copy our files from our Windows computers to our EC2 Instance us
 
  We had to do this outside the EC2 instance.
 The screenshot below confirms that the files are being copied from the Windows machine to the Ubuntu machine in EC2.  
-![Copying the app to EC2](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-12%20153733.png)
+![Copying the app to EC2](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-12%20153733.png)
 
 ---
 ## ✅ Step 8: SSH into EC2
 After the files completed copying (This can take a while) 
 
 This is the code to run the SSH command: ``` ssh -i "C:\Users\TimorraRogo\Downloads\SAW-TAPP.pem" ubuntu@3.142.74.18 ```
-![chatgpt command](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-13%20195106.png)
+![chatgpt command](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-13%20195106.png)
 
 Once SShed in: ``` cd ~/SentimentApp ```
 
 ---
 ## ✅ Step 8: Installs
 Your terminal will look like this:  (some steps here may look different from each individual some trouble shooting is necessary)
-![terminal](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-14%20103934.png)
+![terminal](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-14%20103934.png)
 
 Next do these Installs (in your terminal):
 
@@ -199,17 +201,17 @@ Next do these Installs (in your terminal):
 ---
 This is the confirmation that the Terminal in VSCode is connected to the EC2 terminal (by SSH). This also confirms that the AWS is hosting our SAW-TApp (Sentiment Analysis Web Tool).
 
-![confrimaton of terminal connection](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-12%20163012.png)
+![confrimaton of terminal connection](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-12%20163012.png)
 
 To view the web tool in the internet browser we typed: http://<ec2.ip.addy>:5000
 
 ---
 Successful SSH into EC2
-![Tanvins confirmation](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-14%20104744.png)
+![Tanvins confirmation](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-14%20104744.png)
 
-![Tanvins active instance](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-14%20104804.png)
+![Tanvins active instance](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-14%20104804.png)
 
-![Tanvins Site](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-14%20104825.png)
+![Tanvins Site](https://github.com/price2high/Images-SAWTApp/blob/main/Screenshot%202025-07-14%20104825.png)
 
 ---
 # 🎉 Done!
