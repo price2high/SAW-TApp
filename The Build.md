@@ -168,4 +168,4 @@ We were able to copy our files from our Windows computers to our EC2 Instance us
 
  We had to do this outside the EC2 instance.
 The screenshot below confirms that the files are being copied from the Windows machine to the Ubuntu machine in EC2.  
-
+![Copying the app to EC2](https://github.com/price2high/SAW-TApp/blob/main/Screenshot%202025-07-12%20153733.png)
